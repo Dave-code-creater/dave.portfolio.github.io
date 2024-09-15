@@ -14,7 +14,7 @@ function App() {
         <Hero />
       </section>
 
-      <section id="projects">
+      <section id="projects" className='flex justify-center '>
         <Project />
       </section>
     </div>

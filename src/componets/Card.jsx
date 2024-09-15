@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Card({ projects }) {
     return (
-        <div className='flex justify-between space-x-4'>
+        <div className='flex justify-between space-x-10'>
             {projects.map(({ img, title, description, url, languages }, index) => {
                 return (
                     <div key={index} className='relative flex flex-col mt-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96'>

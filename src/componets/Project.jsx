@@ -4,7 +4,7 @@ import Card from "../componets/Card"
 
 export default function Projects() {
     return (
-        <div>
+        <div >
 
             <div className=" text-gray-700 font-bold py-12 mb-12 text-center text-5xl">
                 <h2>Projects</h2>
